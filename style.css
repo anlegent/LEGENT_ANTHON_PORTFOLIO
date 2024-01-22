@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+body {
+background-color: #151515;
+font-family: "Space Grotesk";
+}
+
+.font-white {
+color: #FFFFFF;
+}
+
+.font-grey {
+color: #D9D9D9;
+}
+
+.h2-size {
+font-size: 40px;
+}
+
+.h2-sizetwo {
+font-size: 32px;
+}
+
+.subtitle-size {
+font-size: 16px;
+}
+
+.spacing {
+letter-spacing: 2px;
+}
+
+.link-custom {
+margin-left: 20px;
+}
+
+.link-linkedin {
+margin-left: 20px;
+}
+
+.link-twitter {
+margin-left: 20px;
+}
+
+.description {
+text-align: center;
+justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+.image-profile-tablet {
+display: none;
+}
+
+.title {
+font-size: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.link-ensemble {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+    
+.skills {
+text-align: center;
+justify-content: center;
+}
+
+.deco-rings {
+margin-top: 124px;
+margin-left: -342px;
+}
+
+.image-profile-mobile {
+margin-left: 101px;
+width: 174px;
+height: 383px;
+}
+
+.deco-circle{
+margin-top: 254px;
+margin-left: 311px;
+}
+.divider {
+    background-color: #FFFFFF;
+    width: 343px;
+    height: 1px;
+    justify-content: center;
+    }
+}
+
+@media screen and (min-width: 640px) {
+.image-profile-mobile {
+display: none;
+}
+
+.link-ensemble,.title{
+display: inline;
+}
+
+.deco-rings {
+margin-top: 86px;
+margin-left: -265px;
+}
+
+.image-profile-tablet {
+width: 322px;
+height: 600px;
+margin-left: 445.56px;
+}
+
+.deco-circle {
+width: 129px;
+height: 129px;
+margin-top: 471px;
+margin-left: 702px;  
+}
+.divider {
+background-color: #FFFFFF;
+width: 706px;
+height: 1px;
+justify-content: center;
+}
+}
+
+.image-profile-desktop {
+display: none;
+}
